@@ -10,27 +10,29 @@
         <v-card flat color="transparent" width="75vw">
           <v-card-text>
             <div v-for="(contact, index) in contacts" :key="contact">
-              <div class="d-flex justify-space-between">
-                <span class="text-h6 text-md-h4 font-weight-thin">
+              <v-row>
+                <v-col class="text-h6 text-md-h4 font-weight-thin">
                   {{ contact.name }}
-                </span>
-                <v-btn
-                  target="_blank"
-                  variant="outlined"
-                  :href="
-                    contact.type == 'email' ? 'mailto:' : '' + contact.link
-                  "
-                >
-                  {{ contact.profile ?? contact.link }}
-                  <v-tooltip
-                    v-if="contact.hint"
-                    activator="parent"
-                    location="top"
+                </v-col>
+                <v-col class="text-end">
+                  <v-btn
+                    target="_blank"
+                    variant="outlined"
+                    :href="
+                      (contact.type == 'email' ? 'mailto:' : '') + contact.link
+                    "
                   >
-                    {{ getHint(contact) }}
-                  </v-tooltip>
-                </v-btn>
-              </div>
+                    {{ contact.profile ?? contact.link }}
+                    <v-tooltip
+                      v-if="contact.hint"
+                      activator="parent"
+                      location="top"
+                    >
+                      {{ getHint(contact) }}
+                    </v-tooltip>
+                  </v-btn>
+                </v-col>
+              </v-row>
               <v-divider
                 v-if="index + 1 !== contacts.length"
                 class="my-10 border-dashed border-red"
@@ -76,5 +78,10 @@ export default {
 <style scoped>
 .border-red {
   border-color: #f44336 !important;
+}
+.v-btn >>> .v-btn__content {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 </style>
