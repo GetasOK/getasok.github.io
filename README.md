@@ -1,24 +1,15 @@
-# getasok.github.io
+# Hello!
 
-## Project setup
-```
-npm install
-```
+Here is my resume website.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can edit resume data in file `src/assets/resume.json`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Commands
 
-### Lints and fixes files
-```
-npm run lint
-```
+Project setup: `npm install`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Compiles with hot-reloads: `npm run serve`
+
+Compiles and minifies for production: `npm run build`
+
+Lints and fixes files: `npm run lint`
