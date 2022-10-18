@@ -1,0 +1,115 @@
+{
+  "fullname": "Дмитрий Киселев",
+  "position": {
+    "name": "FullStack разработчик",
+    "specs": ["PHP", "JavaScript", "Laravel", "Vue"]
+  },
+  "birthday": "1998-12-19",
+  "town": "Ростов-на-Дону",
+  "description": "Я разработчик из России и занимаюсь Web разработкой больше года. Предпочитаю использовать фреймворки Laravel и Vue. Мои принципы – качество и исполнительность. Всегда открыт для изучения новых технологий, не боюсь пробовать что-то новое. Я позитивный и отзывчивый человек, умею работать в команде. Проверяю каждую строчку перед пушем и верю, что за Web – будущее!",
+  "skills": [
+    {
+      "name": "Языки",
+      "elements": [
+        {
+          "name": "JavaScript",
+          "color": "yellow",
+          "icon": "mdi-language-javascript"
+        },
+        {
+          "name": "PHP",
+          "color": "purple-lighten-3",
+          "icon": "mdi-language-php"
+        },
+        {
+          "name": "HTML",
+          "color": "red-lighten-2",
+          "icon": "mdi-language-html5"
+        },
+        {
+          "name": "CSS",
+          "color": "blue-lighten-2",
+          "icon": "mdi-language-css3"
+        }
+      ]
+    },
+    {
+      "name": "Фреймворки",
+      "elements": [
+        { "name": "Laravel", "color": "red-lighten-2", "icon": "mdi-laravel" },
+        { "name": "Vue", "color": "green-lighten-1", "icon": "mdi-vuejs" },
+        { "name": "Vuetify", "color": "blue", "icon": "mdi-vuetify" }
+      ]
+    },
+    {
+      "name": "Базы данных",
+      "elements": [
+        { "name": "MySQL", "color": "blue-lighten-2" },
+        { "name": "PostgreSQL", "color": "blue" }
+      ]
+    },
+    {
+      "name": "Инструменты",
+      "elements": [
+        {
+          "name": "VS Code",
+          "color": "blue",
+          "icon": "mdi-microsoft-visual-studio-code"
+        },
+        { "name": "Docker", "color": "blue", "icon": "mdi-docker" },
+        { "name": "Git", "color": "red", "icon": "mdi-git" },
+        { "name": "Jira", "color": "blue", "icon": "mdi-jira" },
+        { "name": "Postman", "color": "red-lighten-1" }
+      ]
+    }
+  ],
+  "workExpirience": [
+    {
+      "company": "ТрансТелеКом",
+      "position": "Инженер",
+      "startDate": "2020-06",
+      "endDate": "2021-08",
+      "duties": "Техническая поддержка пользователей в рамках центра поддержки клиентов ОАО «РЖД», обслуживание и ремонт ПК и офисной техники. Оперативная реакция на сбои в ИС и их эскалация. Актуализация базы знаний для других инженеров. Обучение новых инженеров."
+    },
+    {
+      "company": "ТрансТелеКом",
+      "position": "Инженер-программист",
+      "startDate": "2021-08",
+      "endDate": "2021-10",
+      "duties": "Поддержка и разработка нового функционала ИС, предназначенной для просмотра схемы расположения сотрудников компании в различных городах присутствия с возможностью создания различных типов заявок. Стек: Laravel, Vue 2, Vuex, jQuery, Bootstrap, MySQL."
+    },
+    {
+      "company": "ТрансТелеКом",
+      "position": "Программист",
+      "startDate": "2021-10",
+      "endDate": "2022-02",
+      "duties": "Разработка с нуля ИС, предназначенной для автоматизации конвертирования потоков RTSP в HLS на базе мультимедиа фреймворка FFMPEG, с слежением за активностью потоков и их автоматическим перезапуском, с возможностью управления посредством API, с созданием и хранением снимков камер для отображения всех снимков за определенный период. В данный момент ИС работает с более 400 потоками видео одновременно. Стек: Node.js, Express, FFMPEG, PostgreSQL."
+    },
+    {
+      "company": "ТрансТелеКом",
+      "position": "Ведущий программист",
+      "startDate": "2022-02",
+      "endDate": "2022-09",
+      "duties": "Поддержка и разработка нового функционала CRM, предназначенной для просмотра расписания поездов, ведения обращений клиентов в ЦПК ОАО «РЖД» в различных направлениях – первая линия, линия обращений, Центр Содействия Мобильности, ДОСС и пр. Интеграция с различными внутренними сервисами ЦПК и РЖД. Внедрение сокетов на базе Pusher и Echo. Стек: Laravel 8, Vue 2, Vue Router, Vuex, PostgreSQL, Soketi."
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Почта",
+      "type": "email",
+      "link": "getasokcv@gmail.com"
+    },
+    {
+      "name": "Telegram",
+      "type": "link",
+      "profile": "getasok",
+      "link": "https://t.me/getasok"
+    },
+    {
+      "name": "GitHub",
+      "type": "link",
+      "profile": "getasok",
+      "link": "https://github.com/getasok"
+    }
+  ]
+}
