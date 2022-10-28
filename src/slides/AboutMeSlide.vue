@@ -94,9 +94,9 @@ export default {
       const diff =
         now.getFullYear() -
         age.getFullYear() -
-        (now.getMonth() <= age.getMonth() && now.getDate() < age.getDate()
-          ? 1
-          : 0);
+        (now.getMonth() >= age.getMonth() && now.getDate() >= age.getDate()
+          ? 0
+          : 1);
 
       return `${diff} ${
         diff % 10 == 1
